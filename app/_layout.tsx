@@ -1,5 +1,10 @@
-import '../tamagui.generated.css'
-import '../theme/semantic-web.css'
+import { Platform } from 'react-native'
+
+if (Platform.OS === 'web') {
+  require('../tamagui.generated.css')
+  require('../theme/semantic-web.css')
+}
+
 import '@tamagui/native/setup-zeego'
 
 import { useEffect, useMemo } from 'react'
