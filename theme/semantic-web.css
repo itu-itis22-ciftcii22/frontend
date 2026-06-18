@@ -1,0 +1,131 @@
+:root,
+:root.t_light,
+:root.t_dark .t_light {
+  --surfaceBase: #F7FAFC;
+  --surfaceRaised: #FFFFFF;
+  --surfaceSubtle: #DFEAF4;
+  --surfaceHover: #D0E4F0;
+  --borderSubtle: #B8D1E2;
+  --borderFocus: #8DB9D3;
+  --textPrimary: #0B1520;
+  --textSecondary: #334E68;
+  --textMuted: #66788A;
+  --brandPrimary: #002855;
+  --brandPrimaryHover: #001F42;
+  --brandPrimaryForeground: #FFFFFF;
+  --brandSecondary: #8DB9D3;
+  --brandSecondarySoft: #E1F0F7;
+  --brandSecondaryForeground: #12344D;
+  --brandGold: #9A8051;
+  --brandGoldSoft: #F1E7D2;
+  --brandGoldForeground: #FFFFFF;
+  --destructiveForeground: #FFFFFF;
+  --surfaceDeep: var(--surfaceBase);
+  --surfaceCard: var(--surfaceRaised);
+  --borderColor: var(--borderSubtle);
+  --accentBackground: var(--brandPrimary);
+  --accentHover: var(--brandPrimaryHover);
+  --accentForeground: var(--brandPrimaryForeground);
+  --secondaryBackground: var(--brandSecondary);
+  --secondaryForeground: var(--brandSecondaryForeground);
+  --goldBackground: var(--brandGold);
+  --goldForeground: var(--brandGoldForeground);
+  --background: var(--surfaceBase);
+  --backgroundHover: var(--surfaceHover);
+  --backgroundPress: var(--surfaceSubtle);
+  --backgroundFocus: var(--surfaceSubtle);
+  --backgroundActive: var(--surfaceRaised);
+  --color: var(--textPrimary);
+  --colorHover: var(--textPrimary);
+  --colorPress: var(--textPrimary);
+  --colorFocus: var(--textPrimary);
+  --placeholderColor: var(--textMuted);
+}
+
+:root.t_dark,
+:root.t_light .t_dark {
+  --surfaceBase: #061A2F;
+  --surfaceRaised: #0D2A47;
+  --surfaceSubtle: #153D5E;
+  --surfaceHover: #1C4A72;
+  --borderSubtle: #335F82;
+  --borderFocus: #8DB9D3;
+  --textPrimary: #F5F8FB;
+  --textSecondary: #C5D3DE;
+  --textMuted: #A3BDD0;
+  --brandPrimary: #1A4A7A;
+  --brandPrimaryHover: #245A8E;
+  --brandPrimaryForeground: #FFFFFF;
+  --brandSecondary: #8DB9D3;
+  --brandSecondarySoft: #143B5A;
+  --brandSecondaryForeground: #F4FBFF;
+  --brandGold: #9A8051;
+  --brandGoldSoft: #3A3020;
+  --brandGoldForeground: #111827;
+  --destructiveForeground: #FFFFFF;
+  --surfaceDeep: var(--surfaceBase);
+  --surfaceCard: var(--surfaceRaised);
+  --borderColor: var(--borderSubtle);
+  --accentBackground: var(--brandPrimary);
+  --accentHover: var(--brandPrimaryHover);
+  --accentForeground: var(--brandPrimaryForeground);
+  --secondaryBackground: var(--brandSecondary);
+  --secondaryForeground: var(--brandSecondaryForeground);
+  --goldBackground: var(--brandGold);
+  --goldForeground: var(--brandGoldForeground);
+  --background: var(--surfaceBase);
+  --backgroundHover: var(--surfaceHover);
+  --backgroundPress: var(--surfaceSubtle);
+  --backgroundFocus: var(--surfaceSubtle);
+  --backgroundActive: var(--surfaceRaised);
+  --color: var(--textPrimary);
+  --colorHover: var(--textPrimary);
+  --colorPress: var(--textPrimary);
+  --colorFocus: var(--textPrimary);
+  --placeholderColor: var(--textMuted);
+}
+
+body {
+  background: var(--surfaceBase);
+  color: var(--textPrimary);
+}
+
+:root.t_dark .t_Button,
+:root.t_light .t_Button,
+.t_Button {
+  --background: var(--surfaceRaised);
+  --backgroundHover: var(--surfaceHover);
+  --backgroundPress: var(--surfaceSubtle);
+  --backgroundFocus: var(--surfaceSubtle);
+  --backgroundActive: var(--surfaceRaised);
+  --borderColor: var(--borderSubtle);
+  --borderColorHover: var(--borderSubtle);
+  --borderColorFocus: var(--borderFocus);
+  --borderColorPress: var(--borderSubtle);
+  --color: var(--textPrimary);
+  --colorHover: var(--textPrimary);
+  --colorPress: var(--textPrimary);
+  --colorFocus: var(--textPrimary);
+}
+
+:root.t_dark .t_Input,
+:root.t_dark .t_TextArea,
+:root.t_light .t_Input,
+:root.t_light .t_TextArea,
+.t_Input,
+.t_TextArea {
+  --background: var(--surfaceRaised);
+  --backgroundHover: var(--surfaceRaised);
+  --backgroundPress: var(--surfaceRaised);
+  --backgroundFocus: var(--surfaceRaised);
+  --backgroundActive: var(--surfaceRaised);
+  --borderColor: var(--borderSubtle);
+  --borderColorHover: var(--borderFocus);
+  --borderColorFocus: var(--borderFocus);
+  --borderColorPress: var(--borderFocus);
+  --color: var(--textPrimary);
+  --colorHover: var(--textPrimary);
+  --colorPress: var(--textPrimary);
+  --colorFocus: var(--textPrimary);
+  --placeholderColor: var(--textMuted);
+}

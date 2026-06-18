@@ -1,0 +1,12 @@
+{
+  "editTitle": "Edit {{name}}",
+  "addTitle": "{{name}}",
+  "displayPane": "Display Pane",
+  "overlayLabel": "Overlay (On price chart)",
+  "timeframe": "Indicator Timeframe",
+  "noParams": "No input parameters available.",
+  "parametersTitle": "Parameters",
+  "styleTitle": "Style",
+  "updateBtn": "Update Indicator",
+  "addBtn": "Add Indicator"
+}

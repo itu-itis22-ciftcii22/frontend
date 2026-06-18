@@ -1,0 +1,17 @@
+{
+  "title": "İzleme Listesi",
+  "emptyState": "İzleme listeniz boş.",
+  "selectIndicator": "Gösterge Seç",
+  "catalogSearch": "Katalog Arama",
+  "addAssetToTrack": "İzlenecek Varlık Ekle",
+  "monitoredStrategies": "İzlenen Stratejiler",
+  "waitingForData": "Veri bekleniyor",
+  "editConfigurations": "Yapılandırmaları Düzenle",
+  "configureAsset": "{{symbol}} için izlenecek grafik düzeni profillerini ve stratejileri yapılandırın.",
+  "chartLayoutProfiles": "Grafik Düzeni Profilleri",
+  "noSavedChartLayouts": "Kayıtlı grafik düzeni yok. Önce Grafik sekmesinden bir düzen kaydedin.",
+  "indicatorsAbbrev": "Göst.",
+  "strategiesToMonitor": "İzlenecek Stratejiler",
+  "noStrategiesDefined": "Tanımlı strateji yok. Önce Strateji Laboratuvarı sekmesinde strateji oluşturun.",
+  "alreadyAdded": "Zaten Eklendi"
+}

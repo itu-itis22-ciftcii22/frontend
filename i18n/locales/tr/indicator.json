@@ -1,0 +1,12 @@
+{
+  "editTitle": "{{name}} Düzenle",
+  "addTitle": "{{name}}",
+  "displayPane": "Gösterim Paneli",
+  "overlayLabel": "Üst Katman (Fiyat grafiğinde)",
+  "timeframe": "Gösterge Zaman Aralığı",
+  "noParams": "Giriş parametresi mevcut değil.",
+  "parametersTitle": "Parametreler",
+  "styleTitle": "Stil",
+  "updateBtn": "Göstergeyi Güncelle",
+  "addBtn": "Gösterge Ekle"
+}

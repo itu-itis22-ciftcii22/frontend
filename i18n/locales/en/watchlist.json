@@ -1,0 +1,17 @@
+{
+  "title": "Watchlist",
+  "emptyState": "Your watchlist is empty.",
+  "selectIndicator": "Select Indicator",
+  "catalogSearch": "Catalog Search",
+  "addAssetToTrack": "Add Asset to Track",
+  "monitoredStrategies": "Monitored Strategies",
+  "waitingForData": "Waiting for data",
+  "editConfigurations": "Edit Configurations",
+  "configureAsset": "Configure chart layout profiles and strategies to monitor for {{symbol}}.",
+  "chartLayoutProfiles": "Chart Layout Profiles",
+  "noSavedChartLayouts": "No saved chart layouts. Save a layout from the Charting tab first.",
+  "indicatorsAbbrev": "Ind.",
+  "strategiesToMonitor": "Strategies to Monitor",
+  "noStrategiesDefined": "No strategies defined. Create strategies in the Strategy Lab tab first.",
+  "alreadyAdded": "Already Added"
+}
